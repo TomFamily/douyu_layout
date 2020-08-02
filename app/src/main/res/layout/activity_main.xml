@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ykImage"
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/banner"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ykConstraintlayout"
+        android:layout_width="330dp"
+        android:layout_height="180dp"
+        app:layout_constraintTop_toBottomOf="@+id/ykImage"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/ykL1"
+            android:orientation="horizontal"
+            android:layout_width="330dp"
+            android:layout_height="90dp"
+            app:layout_constraintTop_toTopOf="@+id/ykConstraintlayout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="66dp"
+                android:layout_height="90dp">
+                <ImageView
+                android:id="@+id/ykIcon"
+                android:layout_width="55dp"
+                android:layout_height="66dp"
+                android:src="@drawable/bjx"/>
+                <TextView
+                    android:id="@+id/yktextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iconTitle"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="66dp"
+                android:layout_height="90dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="66dp"
+                    android:src="@drawable/bjx"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iconTitle"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="66dp"
+                android:layout_height="90dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="66dp"
+                    android:src="@drawable/bjx"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iconTitle"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="66dp"
+                android:layout_height="90dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="66dp"
+                    android:src="@drawable/bjx"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iconTitle"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="66dp"
+                android:layout_height="90dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="66dp"
+                    android:src="@drawable/bjx"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iconTitle"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="90dp"
+            app:layout_constraintTop_toBottomOf="@+id/ykL1"
+            app:layout_constraintLeft_toLeftOf="@+id/ykL1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="66dp"
+                android:layout_height="90dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="66dp"
+                    android:src="@drawable/bjx"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iconTitle"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="66dp"
+                android:layout_height="90dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="66dp"
+                    android:src="@drawable/bjx"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iconTitle"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="66dp"
+                android:layout_height="90dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="66dp"
+                    android:src="@drawable/bjx"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iconTitle"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="66dp"
+                android:layout_height="90dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="66dp"
+                    android:src="@drawable/bjx"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iconTitle"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="66dp"
+                android:layout_height="90dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="66dp"
+                    android:src="@drawable/bjx"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iconTitle"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/ykFire"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/fire"
+        app:layout_constraintLeft_toLeftOf="@id/ykConstraintlayout"
+        app:layout_constraintTop_toBottomOf="@id/ykConstraintlayout" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toRightOf="@id/ykFire"
+        app:layout_constraintTop_toTopOf="@id/ykFire"
+        android:layout_marginLeft="10dp"
+        android:text="猜你喜欢"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="330dp"
+    android:layout_height="200dp"
+    app:layout_constraintTop_toBottomOf="@id/ykFire"
+    app:layout_constraintLeft_toLeftOf="@id/ykFire"
+    android:layout_marginTop="20dp">
+
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="103dp"
+        android:src="@drawable/pic3"/>
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:text="你在教我玩游戏？"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ykL2"
+        android:orientation="vertical"
+        android:layout_width="165dp"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@id/ykFire"
+        app:layout_constraintLeft_toLeftOf="@id/ykFire"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="165dp"
+            android:layout_height="103dp"
+            android:src="@drawable/pic3"/>
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:text="你在教我玩游戏？"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="165dp"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toTopOf="@id/ykL2"
+        app:layout_constraintLeft_toRightOf="@id/ykL2"
+        android:layout_marginLeft="5dp">
+
+        <ImageView
+            android:layout_width="165dp"
+            android:layout_height="103dp"
+            android:src="@drawable/pic3"/>
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:text="你在教我玩游戏？"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
